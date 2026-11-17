@@ -1,0 +1,24 @@
+name: nsidc0803v3
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python~=3.13
+  # Core numerics
+  - numpy
+  - scipy
+  - pandas
+  # NetCDF / array I/O
+  - netcdf4
+  - xarray
+  # Geospatial / resampling
+  - pyproj
+  - pyresample
+  # Regression (sklearn.linear_model)
+  - scikit-learn
+  # Config parsing (yaml, yaml.scanner)
+  - pyyaml
+  # Date parsing (dateutil.parser)
+  - python-dateutil
+  # Plotting
+  - matplotlib
