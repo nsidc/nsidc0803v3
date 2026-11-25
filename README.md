@@ -5,9 +5,8 @@
 
 # NSIDC0803v3
 
-Uses the "NASA Team" algorithm to create sea ice concentration estimates
-on the 25km NSIDC polar stereo grids using calibrated brightness temperature
-fields created by nsidc0802v3
+{title} enables {audience} to {utility}.
+
 
 ## Level of Support
 
