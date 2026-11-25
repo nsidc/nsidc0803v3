@@ -32,7 +32,16 @@ Conda
 
 ## Usage
 
-{usage}
+These routines expect files created by nsidc0802v3 to be available to it. 
+Currently, those files are on `/share/apps/nsidc0802/nsidc0802/dev/scotts/<...>/
+
+From the main repo directory here, the initial means of running the code is:
+
+`python seaice_goddard.py <gridid> <startdate> <enddate>`
+
+eg
+
+`python seaice_goddard.py psn25 20240315 20240315`
 
 
 ## Troubleshooting
