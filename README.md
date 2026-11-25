@@ -43,6 +43,13 @@ eg
 
 `python seaice_goddard.py psn25 20240315 20240315`
 
+creates:  `/share/apps/nsidc0803/nsidc0803/dev/scotts/nt_0803v3/2024/03/nt_0803v3_psn25_20240315.dat`
+
+
+`python seaice_goddard.py pss25 20240315 20240315`
+
+creates: `/share/apps/nsidc0803/nsidc0803/dev/scotts/nt_0803v3/2024/03/nt_0803v3_pss25_20240315.dat`
+
 
 ## Troubleshooting
 
